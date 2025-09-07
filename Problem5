@@ -1,0 +1,20 @@
+Question:
+Given an input String s, you need to print it and move the cursor to the next line.
+
+Examples:
+
+Input: s = "Hello World"
+Output: Hello World 
+Explanation: The input is "Hello World", and we just print it. 
+
+Solution:
+import java.util.*;
+
+public class Solution {
+    public static void solve() {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        // Print S and move the cursor to a new line
+        System.out.println(s);
+    }
+}
