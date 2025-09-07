@@ -1,0 +1,27 @@
+Question:
+Given a number n. Take input and add 10 to its value and print it.
+
+Examples:
+
+Input: n = 2
+Output: 12
+Explanation: Input is 2 adding 10 to it makes it 12.
+Input: n = 22
+Output: 32
+Explanation: Input is 22 adding 10 to it makes it 32.
+
+Solution:
+import java.util.*;
+import java.util.Scanner;
+
+class GFG {
+    public static void main(String args[]) {
+        // Implement Scanner Class
+        Scanner sn = new Scanner(System.in);
+        //  Take input
+        int a = sn.nextInt();
+        //  Add 10 and Print
+        a = a + 10;
+        System.out.println(a);
+    }
+}
