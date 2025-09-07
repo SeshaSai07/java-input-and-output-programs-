@@ -1,0 +1,22 @@
+Question:
+Given two inputs that are store in variables a and b, you need to print a and b in a single line with a space separating them.
+Add new line after printing with space.
+
+Examples:
+
+Input: a = "Hello", b = "World"
+Output: Hello World
+Explanation: a and b are printed in a single line and a space separates them.
+
+Solution:
+import java.util.*;
+
+public class Solution {
+    public static void solve() {
+        Scanner sc = new Scanner(System.in);
+        String a = sc.nextLine();
+        String b = sc.nextLine();
+        // Print in the required format and a new line at the end
+        System.out.println(a + " " + b);
+    }
+}
