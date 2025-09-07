@@ -1,0 +1,35 @@
+Question:
+In this problem we will learn how to read inputs.
+You are given five inputs: a(integer), b(float ), c(long), d(byte), and s(string) respectively. 
+You need to use the scanner class object and then take all the input and print each in a new line.
+Note: Consider using sc.nextLine( ) after byte input to handle any issues with input reading
+
+Solution:
+import java.util.*;
+import java.util.Scanner;
+
+class GFG {
+    public static void main(String args[]) {
+        
+        // Implement Scanner Class
+        Scanner sc = new Scanner(System.in);
+        
+        // Take all inputs
+        int a = sc.nextInt();
+        float b = sc.nextFloat();
+        long c = sc.nextLong();
+        byte d = sc.nextByte();
+        sc.nextLine();
+        String s = sc.nextLine();
+        
+       
+        // Print all the values
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(s);
+        
+      
+    }
+}
